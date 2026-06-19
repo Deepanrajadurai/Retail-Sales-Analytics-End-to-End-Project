@@ -1,0 +1,50 @@
+Advanced SQL Analytics Questions (Retail Sales Project)
+
+MODULE 1 : Running Totals
+-- Q1. What is the cumulative monthly sales?
+-- Q2. What is the cumulative monthly profit?
+-- Q3. What is the cumulative quarterly revenue?
+-- Q4. What is the cumulative yearly revenue?
+
+MODULE 2 : Previous / Next Period Analysis 
+-- Q5. What were the previous month's sales? (LAG)
+-- Q6. What were the previous quarter's sales? (LAG)
+-- Q7. What were the previous year's sales? (LAG)
+-- Q8. What are the next month's sales? (LEAD)
+-- Q9. Compare current month sales with next month sales.
+
+MODULE 3 : Growth Analysis
+-- Q10. Month-over-Month (MoM) Sales Growth
+-- Q11. Quarter-over-Quarter (QoQ) Sales Growth
+-- Q12. Year-over-Year (YoY) Sales Growth
+-- Q13. Monthly Revenue Difference
+-- Q14. Quarterly Revenue Difference
+
+/* MODULE 4 : Rolling / Moving Average */
+-- Q15. Rolling 3-Month Average Sales
+-- Q16. Rolling 6-Month Average Sales
+-- Q17. Rolling 12-Month Average Sales
+
+/* MODULE 5 : Ranking */
+-- Q18. Rank Months by Revenue (RANK)
+-- Q19. Dense Rank Months by Revenue (DENSE_RANK)
+-- Q20. Rank Products by Revenue
+-- Q21. Top Selling Product in Every Month (ROW_NUMBER)
+-- Q22. Top Customer in Every Year
+-- Q23 What is the highest monthly revenue in each year?
+-- Q24 Which month had the lowest revenue in each year
+-- Q25 Divide customers into 4 spending groups.
+
+
+-- Window Functions Covered:
+-- SUM() OVER()
+-- AVG() OVER()
+-- LAG()
+-- LEAD()
+-- ROW_NUMBER()
+-- RANK()
+-- DENSE_RANK()
+-- FIRST_VALUE() 
+-- LAST_VALUE() 
+-- NTILE()
+
